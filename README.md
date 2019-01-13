@@ -2,6 +2,20 @@
 Ported Mojang's modified leveldb database to Android.
 Used to build Android apps in Android Studio to use leveldb
 database.
+
+## Shutting down
+This was originally created as a quick beginning to enable the
+[Convarter](https://github.com/oO0oO0oO0o0o00/Convarter)
+app. Many bad practices had been taken to make things
+work. Since recently we've managed to use Mojang's leveldb-mcpe as
+a submodule, there's no need to use this idiot version anymore.  
+
+## Alternative
+An excellent Android wrapper project for leveldb-mcpe:
+https://github.com/MithrilMania/android-leveldb
+
+## Below is original ReadMe.
+
 It's intended to be included in apps to modify Minecraft
 game maps, so...
 The JNI part of this project has been hard-coded to use
